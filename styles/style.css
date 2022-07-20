@@ -1,0 +1,158 @@
+/*first page style*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.section-header{
+    margin: 50px 100px;
+    padding: 100px;
+    border-radius: 35px;
+    background-color: black;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+.left{
+    text-align: left;
+    padding-left: 90px;
+}
+.text-area h1{
+    font-size: 4em;
+    color: aliceblue;
+}
+.para-area{
+    font-size: 1.2em;
+    color: aliceblue;
+}
+.link-button{
+    text-decoration: none;
+    font-size: large;
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+#img{
+    display: flex;
+    height: 100%;
+}
+/*---------------
+second page style
+---------------*/
+.section-fixure{
+    display: flex;
+    padding: 60px;
+}
+.section-media{
+    margin-right: 20px;
+}
+.kala-rong{
+    display: block;
+    background-color: black;
+    border-radius: 10px;
+}
+#upcoming-match, #all-group , #match-blog {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+nav{
+    display: flex;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+nav li:hover{
+    background-color: red;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav > ul > li:hover >ul{
+    display: block;
+}
+@media screen and (max-width: 576px){
+    .container-two{
+        flex-direction: column;
+    }
+    .container-two .split{
+        width: 100%;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width:577px) and (max-width:700px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    padding: 10px;
+    grid-gap:30px
+}
+.course{
+    border: 1px solid bisque;
+    border-radius: 15px;
+}
+.course-author{
+    background-color: yellow;
+}
+.transfer{
+    background-color: none;
+    width: 100px;
+    border:1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.course-info{
+    display: flex;
+    grid-gap: 30px;
+    padding-bottom: 20px;
+}
+/*---------------
+Footer area style
+----------------*/
+footer{
+    color: aliceblue;
+    background-color: black;
+    padding: 50px;
+}
+h2{
+    font-size: 2em;
+    padding-top: 80px;
+    text-align: center;
+    color:whitesmoke
+}
+hr{
+    border: 0.5px solid darkslategray;
+    margin-bottom: 27px;
+    width: 85%;
+}
+#info{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    color: antiquewhite;
+}
