@@ -50,6 +50,7 @@ second page style
     display: block;
     background-color: black;
     border-radius: 10px;
+
 }
 #upcoming-match, #all-group , #match-blog {
     margin-top: 20px;
@@ -57,8 +58,7 @@ second page style
     height: 80px;
     width: 200px;
     text-align: center;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
 nav{
     display: flex;
@@ -68,6 +68,7 @@ nav>ul{
 }
 nav li{
     list-style: none;
+    background-color: #FFFFFF;
     margin-right: 20px;
     padding: 0 10px;
 }
@@ -76,7 +77,6 @@ nav li:hover{
 }
 nav li a{
     text-decoration: none;
-    color: black;
     font-size: 20px;
 }
 nav > ul > li:hover >ul{
